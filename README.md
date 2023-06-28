@@ -18,6 +18,3 @@ git commit -m "Initial commit"
 4.  This will stage all the files in your project directory and create an initial commit with the message "Initial commit". Feel free to modify the commit message according to your needs.
 
 git push origin master
-
-
-# SAVE A
