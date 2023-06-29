@@ -72,6 +72,9 @@ print(BS_df)
 CF_df = pd.Series(flatten_json(CF)).to_frame()
 print(CF_df)
 
+#CREATE A NEW COLUMN INDICATING SOURCE
+#MOVE INDEX INTO ITS OWN COLUMN
+#UNION ALL FLIES
 #PUT EACH INTO AN EXCEL FILE
 CF_df.to_excel('output_CF.xlsx', index=False)
 BS_df.to_excel('output_BS.xlsx', index=False)
