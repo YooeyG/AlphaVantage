@@ -71,3 +71,8 @@ print(BS_df)
 
 CF_df = pd.Series(flatten_json(CF)).to_frame()
 print(CF_df)
+
+#PUT EACH INTO AN EXCEL FILE
+CF_df.to_excel('output_CF.xlsx', index=False)
+BS_df.to_excel('output_BS.xlsx', index=False)
+IS_df.to_excel('output_IS.xlsx', index=False)
