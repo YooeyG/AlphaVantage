@@ -4,4 +4,3 @@ sys.path.append(expanduser("~") + "/Desktop")
 
 
 print(sys.path)
-#from config import API
